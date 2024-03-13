@@ -1,1 +1,1 @@
-loadstring(game:HttpGet("https://raw.githubusercontent.com/deaddigi/pepsi.club/main/3.0/loader.lua", true))()
+loadstring(game:HttpGet("https://raw.githubusercontent.com/mahmoudx7/Vinix-Hub/main/3.0/loader.lua", true))()
