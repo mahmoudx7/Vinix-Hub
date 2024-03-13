@@ -267,7 +267,7 @@ togglebutton.Text = ""
 togglebutton.TextColor3 = Color3.fromRGB(0, 0, 0)
 togglebutton.TextSize = 14.000
 togglebutton.MouseButton1Click:Connect(function()
-	loadstring(game:HttpGet("https://raw.githubusercontent.com/deaddigi/Vinix Hub/main/3.0/main.lua", true))()
+	loadstring(game:HttpGet("https://raw.githubusercontent.com/mahmoudx7/Vinix-Hub/main/3.0/main.lua", true))()
 	game.CoreGui.loader:Destroy()
 end)
 
