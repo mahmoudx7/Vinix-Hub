@@ -129,7 +129,7 @@ cbimage.BorderColor3 = Color3.fromRGB(0, 0, 0)
 cbimage.BorderSizePixel = 2
 cbimage.Position = UDim2.new(0.0379899889, 0, 0.144787654, 0)
 cbimage.Size = UDim2.new(0, 100, 0, 100)
-cbimage.Image = "rbxassetid://16764988614"
+cbimage.Image = "rbxassetid://16764720381"
 
 welcome.Name = "welcome"
 welcome.Parent = innergroup
