@@ -158,7 +158,7 @@ ScreenLabel.Size = UDim2.new(0, 260, 0, 20)
 
 WatermarkColor.Name = "Color"
 WatermarkColor.Parent = ScreenLabel
-WatermarkColor.BackgroundColor3 = C3(0, 89, 149)
+WatermarkColor.BackgroundColor3 = C3(149, 31, 0)
 WatermarkColor.BorderSizePixel = 0
 WatermarkColor.Size = UDim2.new(0.534260333, 0, 0, 2)
 WatermarkColor.ZIndex = 2
