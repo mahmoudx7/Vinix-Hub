@@ -1381,7 +1381,7 @@ while wait() do
 if t[6] and t[7] and string.find(t[6],game.Players.LocalPlayer.Name) and (tonumber(t[7])) <= min_count then
    game:GetService("TeleportService"):TeleportToPlaceInstance(game.PlaceId, game.JobId)
    end end end end end)
-end
+end))
 
 MiscSec6:AddToggle('mod_spread', {Text = 'No Spread', Default = false})
 MiscSec6:AddToggle('mod_recoil', {Text = 'No Recoil', Default = false})
