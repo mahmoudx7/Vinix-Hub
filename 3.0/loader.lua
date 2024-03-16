@@ -76,7 +76,7 @@ name.TextXAlignment = Enum.TextXAlignment.Left
 
 divider.Name = "divider"
 divider.Parent = up
-divider.BackgroundColor3 = Color3.fromRGB(2, 105, 172)
+divider.BackgroundColor3 = Color3.fromRGB(179, 36, 0)
 divider.BorderColor3 = Color3.fromRGB(0, 0, 0)
 divider.Size = UDim2.new(1, 0, 0, 1)
 
@@ -193,7 +193,7 @@ status.TextXAlignment = Enum.TextXAlignment.Left
 
 divider_2.Name = "divider"
 divider_2.Parent = innergroup
-divider_2.BackgroundColor3 = Color3.fromRGB(2, 105, 172)
+divider_2.BackgroundColor3 = Color3.fromRGB(179, 36, 0)
 divider_2.BorderColor3 = Color3.fromRGB(0, 0, 0)
 divider_2.Position = UDim2.new(0, 0, 0, -2)
 divider_2.Size = UDim2.new(0.999000013, 0, 0, 1)
@@ -214,7 +214,7 @@ innergroup_2.Size = UDim2.new(1.00753152, -2, 1.17912352, -2)
 
 divider_3.Name = "divider"
 divider_3.Parent = innergroup_2
-divider_3.BackgroundColor3 = Color3.fromRGB(2, 105, 172)
+divider_3.BackgroundColor3 = Color3.fromRGB(179, 36, 0)
 divider_3.BorderColor3 = Color3.fromRGB(0, 0, 0)
 divider_3.Position = UDim2.new(0, 0, -0.00299979653, 0)
 divider_3.Size = UDim2.new(1.00004923, 0, 0, 1)
