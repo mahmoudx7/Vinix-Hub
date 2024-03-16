@@ -129,7 +129,7 @@ cbimage.BorderColor3 = Color3.fromRGB(0, 0, 0)
 cbimage.BorderSizePixel = 2
 cbimage.Position = UDim2.new(0.0379899889, 0, 0.144787654, 0)
 cbimage.Size = UDim2.new(0, 100, 0, 100)
-cbimage.Image = "https://create.roblox.com/store/asset/16764988660/Vinix-Logo"
+cbimage.Image = "https://tr.rbxcdn.com/4a07f30b97aeec48055d3a51420d1bba/420/420/Decal/Png"
 
 welcome.Name = "welcome"
 welcome.Parent = innergroup
