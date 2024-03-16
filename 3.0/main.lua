@@ -146,7 +146,7 @@ local Background = Instance.new("Frame")
 
 watermark.Name = "watermark"
 watermark.Parent = game.CoreGui
-watermark.Enabled = false
+watermark.Enabled = true
 
 ScreenLabel.Name = "ScreenLabel"
 ScreenLabel.Parent = watermark
