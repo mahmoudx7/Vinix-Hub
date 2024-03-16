@@ -129,7 +129,7 @@ cbimage.BorderColor3 = Color3.fromRGB(0, 0, 0)
 cbimage.BorderSizePixel = 2
 cbimage.Position = UDim2.new(0.0379899889, 0, 0.144787654, 0)
 cbimage.Size = UDim2.new(0, 100, 0, 100)
-cbimage.Image = "http://www.roblox.com/asset/?id=12164134159"
+cbimage.Image = "http://www.roblox.com/asset/?id=16764720416"
 
 welcome.Name = "welcome"
 welcome.Parent = innergroup
@@ -149,7 +149,7 @@ gamename.BackgroundTransparency = 1.000
 gamename.Position = UDim2.new(0, 120, 0, 48)
 gamename.Size = UDim2.new(0.582110107, -12, 0, 18)
 gamename.Font = Enum.Font.Code
-gamename.Text = "Counter Blox"
+gamename.Text = "Vinix Hub"
 gamename.TextColor3 = Color3.fromRGB(174, 174, 174)
 gamename.TextSize = 15.000
 gamename.TextStrokeTransparency = 0.000
@@ -173,7 +173,7 @@ updated.BackgroundTransparency = 1.000
 updated.Position = UDim2.new(0, 120, 0, 84)
 updated.Size = UDim2.new(0.582110107, -12, 0, 18)
 updated.Font = Enum.Font.Code
-updated.Text = "Updated: 4/9/23"
+updated.Text = "Updated: 3/16/24"
 updated.TextColor3 = Color3.fromRGB(174, 174, 174)
 updated.TextSize = 15.000
 updated.TextStrokeTransparency = 0.000
