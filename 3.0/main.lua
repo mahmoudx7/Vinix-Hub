@@ -1150,7 +1150,7 @@ BulletsTab:AddToggle('bullets_hitenabled', {Text = 'Hit Chams', Default = false}
 BulletsTab:AddLabel('Hit Color'):AddColorPicker('bullets_hitcolor', {Default = C3(0, 0, 255), Title = 'Hit Color'})
 BulletsTab:AddSlider('bullets_hittime', {Text = 'Hit Life Time', Default = 3, Min = 1, Max = 10, Rounding = 0, Compact = false}):OnChanged(function() end)
 --------------------------------------------------------------------------------------
-MiscSec1:AddToggle('misc_watermark', {Text = 'Watermark', Default = false}):AddColorPicker('misc_watermarkcolor', {Default = C3(2, 103, 172), Title = 'Watermark Color'})
+MiscSec1:AddToggle('misc_watermark', {Text = 'Watermark', Default = false}):AddColorPicker('misc_watermarkcolor', {Default = C3(172, 37, 2), Title = 'Watermark Color'})
 Options.misc_watermarkcolor:OnChanged(function()
     WatermarkColor.BackgroundColor3 = Options.misc_watermarkcolor.Value
 end)
@@ -1160,7 +1160,7 @@ Toggles.misc_binds:OnChanged(function()
     Library.KeybindFrame.Visible = Toggles.misc_binds.Value
 end)
 
-MiscSec1:AddToggle('misc_spectlist', {Text = 'Show Spectators List', Default = false}):AddColorPicker('misc_spectlistcolor', {Default = C3(2, 103, 172), Title = 'List Color'})
+MiscSec1:AddToggle('misc_spectlist', {Text = 'Show Spectators List', Default = false}):AddColorPicker('misc_spectlistcolor', {Default = C3(172, 37, 2), Title = 'List Color'})
 Options.misc_spectlistcolor:OnChanged(function()
     SpectColor.BackgroundColor3 = Options.misc_spectlistcolor.Value
 end)
