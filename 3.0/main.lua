@@ -1365,24 +1365,6 @@ MiscSec5:AddButton('Anti Blood Lag', function()
     local senv = getsenv(localPlayer.PlayerGui.Client)senv.splatterBlood = function() end
 end)
 
-MiscSec5:AddButton('Anti Vote Kick', function()
-	local min_count = 2
-repeat wait() until game:IsLoaded()
-if game.PlaceId == 1480424328 or game.PlaceId == 301549746 then
-local chat
-repeat pcall(function() chat = game:GetService("Players").LocalPlayer.PlayerGui.GUI.Main.Chats end) wait() until chat
-print(chat)
-local c = coroutine.create(function()
-while wait() do
-   for i,child in pairs(chat:GetDescendants()) do
-   if child:IsA"TextLabel" then
-       repeat game:GetService"RunService".Stepped:Wait() until child.Text ~= "Label"
-       local t= child.Text:split(" ")
-if t[6] and t[7] and string.find(t[6],game.Players.LocalPlayer.Name) and (tonumber(t[7])) <= min_count then
-   game:GetService("TeleportService"):TeleportToPlaceInstance(game.PlaceId, game.JobId)
-   end end end end end)
-end))
-
 MiscSec6:AddToggle('mod_spread', {Text = 'No Spread', Default = false})
 MiscSec6:AddToggle('mod_recoil', {Text = 'No Recoil', Default = false})
 --------------------------------------------------------------------------------------
